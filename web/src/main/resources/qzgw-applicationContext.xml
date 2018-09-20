@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd"
+       default-autowire="byName">
+
+    <!-- 扫描注解 -->
+
+    <mvc:annotation-driven/>
+    <context:component-scan base-package="com.dzjk.qzgw.*"/>
+    <!--<context:property-placeholder
+            file-encoding="UTF-8"
+            ignore-unresolvable="true"
+            ignore-resource-not-found="true" location="file:${user.home}/config/maiziyun/ams/jdbc.properties"/>-->
+
+    <import resource="classpath*:spring/qzgw-endpoint.xml"/>
+    <import resource="classpath*:spring/qzgw-dal-config.xml"/>
+    <import resource="classpath*:spring/qzgw_cache.xml"/>
+
+</beans>

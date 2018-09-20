@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:cache="http://code.solar.com/schema/cache"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.solar.com/schema/cache
+       http://code.solar.com/schema/cache/solar-cache.xsd"
+       default-autowire="byName">
+
+    <bean id="qzgw.QzgwKeyCacheManager"
+          class="com.dzjk.qzgw.endpoint.cache.QzgwKeyCacheManager">
+    </bean>
+    <bean id="qzgw.QzgwOrgInfoCacheManager"
+          class="com.dzjk.qzgw.endpoint.cache.QzgwOrgInfoCacheManager">
+    </bean>
+    <bean id="qzgw.QzgwServiceOrgCacheManager"
+          class="com.dzjk.qzgw.endpoint.cache.QzgwServiceOrgCacheManager">
+    </bean>
+    <bean id="qzgw.QzgwServiceInfoCacheManager"
+          class="com.dzjk.qzgw.endpoint.cache.QzgwServiceInfoCacheManager">
+    </bean>
+
+    <bean id="qzgw.daoRefreshDetailService"
+          class="com.solar.framework.cache.local.refreshdetail.DAORefreshDetailService">
+        <property name="dataSource" ref="qzgw.dataSource"/>
+        <property name="tableName" value="qzgw_cache_refresh_sync"/>
+    </bean>
+
+    <bean id="qzgw.cacheManagerSynchronization"
+          class="com.solar.framework.cache.local.synchronization.DAOCacheManagerSynchronization">
+        <property name="refreshDetailService" ref="qzgw.daoRefreshDetailService"/>
+    </bean>
+
+    <cache:factory id="qzgw.cacheManagerFactory" synchronization="qzgw.cacheManagerSynchronization">
+        <cache:manager ref="qzgw.QzgwKeyCacheManager"/>
+        <cache:manager ref="qzgw.QzgwOrgInfoCacheManager"/>
+        <cache:manager ref="qzgw.QzgwServiceOrgCacheManager"/>
+        <cache:manager ref="qzgw.QzgwServiceInfoCacheManager"/>
+    </cache:factory>
+
+
+</beans>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.qzgw.dal.mapper.BmgwCommunicationDOMapper">
+    <!-- 自动生成,请修改 BMGW_COMMUNICATION.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.qzgw.dal.dataobject.BmgwCommunicationDO">
+        <id column="ID" property="id" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="URL" property="url" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATOR" property="creator" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MODIFIER" property="modifier" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="HTTP_REQ_TYPE" property="httpReqType" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MODIFIED_TIME" property="modifiedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="EXCHANGE_TYPE_ID" property="exchangeTypeId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CHANNEL_SYSTEM_ID" property="channelSystemId" jdbcType="VARCHAR" javaType="String"/>
+        <result column="EXCHANGE_TYPE_NAME" property="exchangeTypeName" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,URL,CREATOR,MODIFIER,CREATE_TIME,HTTP_REQ_TYPE,MODIFIED_TIME,EXCHANGE_TYPE_ID,CHANNEL_SYSTEM_ID,EXCHANGE_TYPE_NAME
+    </sql>
+
+
+    <!--插入表:BMGW_COMMUNICATION-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO BMGW_COMMUNICATION(
+            ID
+            ,URL
+            ,CREATOR
+            ,MODIFIER
+            ,CREATE_TIME
+            ,HTTP_REQ_TYPE
+            ,MODIFIED_TIME
+            ,EXCHANGE_TYPE_ID
+            ,CHANNEL_SYSTEM_ID
+            ,EXCHANGE_TYPE_NAME
+        )VALUES(
+             #{id,jdbcType=INTEGER}
+            , #{url,jdbcType=VARCHAR}
+            , #{creator,jdbcType=VARCHAR}
+            , #{modifier,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{httpReqType,jdbcType=VARCHAR}
+            , #{modifiedTime,jdbcType=TIMESTAMP}
+            , #{exchangeTypeId,jdbcType=VARCHAR}
+            , #{channelSystemId,jdbcType=VARCHAR}
+            , #{exchangeTypeName,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <!--更新表:BMGW_COMMUNICATION-->
+    <update id="update" >
+        UPDATE /*MS-BMGW-COMMUNICATION-UPDATE*/ BMGW_COMMUNICATION
+        SET
+            URL             = #{url,jdbcType=VARCHAR}
+            ,MODIFIER        = #{modifier,jdbcType=VARCHAR}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,HTTP_REQ_TYPE   = #{httpReqType,jdbcType=VARCHAR}
+            ,MODIFIED_TIME   = #{modifiedTime,jdbcType=TIMESTAMP}
+            ,EXCHANGE_TYPE_ID = #{exchangeTypeId,jdbcType=VARCHAR}
+            ,CHANNEL_SYSTEM_ID = #{channelSystemId,jdbcType=VARCHAR}
+            ,EXCHANGE_TYPE_NAME = #{exchangeTypeName,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=INTEGER}
+    </update>
+
+    <!--根据主键删除数据:BMGW_COMMUNICATION-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-BMGW-COMMUNICATION-DELETEBYPRIMARY*/ FROM
+            BMGW_COMMUNICATION
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+    </delete>
+
+    <!--根据主键获取数据:BMGW_COMMUNICATION-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-BMGW-COMMUNICATION-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM BMGW_COMMUNICATION
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+    </select>
+</mapper>

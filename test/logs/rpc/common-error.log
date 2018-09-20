@@ -1,0 +1,30 @@
+2018-04-26 16:27:38,789 ERROR SOFA-RPC-ShutdownHook            - Error when destroy server with key:12200
+java.lang.IllegalStateException: ERROR: The server has already stopped!
+	at com.alipay.remoting.RemotingServer.stop(RemotingServer.java:112)
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.stop(BoltServer.java:140)
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.destroy(BoltServer.java:194)
+	at com.alipay.sofa.rpc.server.ServerFactory.destroyAll(ServerFactory.java:154)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext.destroy(RpcRuntimeContext.java:163)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext.access$100(RpcRuntimeContext.java:57)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext$1.run(RpcRuntimeContext.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-26 17:03:05,308 ERROR SOFA-RPC-ShutdownHook            - Error when destroy server with key:12200
+java.lang.IllegalStateException: ERROR: The server has already stopped!
+	at com.alipay.remoting.RemotingServer.stop(RemotingServer.java:112)
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.stop(BoltServer.java:140)
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.destroy(BoltServer.java:194)
+	at com.alipay.sofa.rpc.server.ServerFactory.destroyAll(ServerFactory.java:154)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext.destroy(RpcRuntimeContext.java:163)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext.access$100(RpcRuntimeContext.java:57)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext$1.run(RpcRuntimeContext.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-26 17:24:51,436 ERROR SOFA-RPC-ShutdownHook            - Error when destroy server with key:12200
+java.lang.IllegalStateException: ERROR: The server has already stopped!
+	at com.alipay.remoting.RemotingServer.stop(RemotingServer.java:112)
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.stop(BoltServer.java:140)
+	at com.alipay.sofa.rpc.server.bolt.BoltServer.destroy(BoltServer.java:194)
+	at com.alipay.sofa.rpc.server.ServerFactory.destroyAll(ServerFactory.java:154)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext.destroy(RpcRuntimeContext.java:163)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext.access$100(RpcRuntimeContext.java:57)
+	at com.alipay.sofa.rpc.context.RpcRuntimeContext$1.run(RpcRuntimeContext.java:117)
+	at java.lang.Thread.run(Thread.java:748)

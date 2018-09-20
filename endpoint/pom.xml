@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.dzjk.qzgw</groupId>
+        <artifactId>qzgw-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <groupId>com.dzjk.qzgw</groupId>
+    <artifactId>qzgw-endpoint</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.dzjk.product</groupId>
+            <artifactId>product-facade</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.mi-ke.leex</groupId>
+            <artifactId>leex-api-facade </artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dzjk.ams</groupId>
+            <artifactId>ams-facade</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dzjk.qzgw</groupId>
+            <artifactId>qzgw-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dzjk.qzgw</groupId>
+            <artifactId>qzgw-dal</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dzjk.qzgw</groupId>
+            <artifactId>qzgw-facade</artifactId>
+        </dependency>
+
+        <!-- spring dependency -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+        <!-- sofa rest middleware -->
+        <dependency>
+            <groupId>com.alipay.boot</groupId>
+            <artifactId>sofarest-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alipay.boot</groupId>
+            <artifactId>mq-spring-boot-starter</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.solar.framework</groupId>
+            <artifactId>framework-cache</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.solar.framework</groupId>
+            <artifactId>framework-core</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>

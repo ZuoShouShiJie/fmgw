@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dzjk.qzgw.dal.mapper.BmgwKeyManagerDOMapper">
+    <!-- 自动生成,请修改 BMGW_KEY_MANAGER.xml -->
+    <resultMap id="BaseResultMap"  type="com.dzjk.qzgw.dal.dataobject.BmgwKeyManagerDO">
+        <id column="ID" property="id" jdbcType="BIGINT" javaType="Long"/>
+        <result column="CREATOR" property="creator" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MODIFIER" property="modifier" jdbcType="VARCHAR" javaType="String"/>
+        <result column="PUBLIC_KEY" property="publicKey" jdbcType="VARCHAR" javaType="String"/>
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="PRIVATE_KEY" property="privateKey" jdbcType="VARCHAR" javaType="String"/>
+        <result column="MODIFIED_TIME" property="modifiedTime" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+        <result column="CHANNEL_SYSTEM_ID" property="channelSystemId" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+
+
+    <sql id="Base_Column_List">
+        ID,CREATOR,MODIFIER,PUBLIC_KEY,CREATE_TIME,PRIVATE_KEY,MODIFIED_TIME,CHANNEL_SYSTEM_ID
+    </sql>
+
+
+    <!--插入表:BMGW_KEY_MANAGER-->
+    <insert id="insert" >
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO BMGW_KEY_MANAGER(
+            ID
+            ,CREATOR
+            ,MODIFIER
+            ,PUBLIC_KEY
+            ,CREATE_TIME
+            ,PRIVATE_KEY
+            ,MODIFIED_TIME
+            ,CHANNEL_SYSTEM_ID
+        )VALUES(
+             #{id,jdbcType=BIGINT}
+            , #{creator,jdbcType=VARCHAR}
+            , #{modifier,jdbcType=VARCHAR}
+            , #{publicKey,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{privateKey,jdbcType=VARCHAR}
+            , #{modifiedTime,jdbcType=TIMESTAMP}
+            , #{channelSystemId,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <!--更新表:BMGW_KEY_MANAGER-->
+    <update id="update" >
+        UPDATE /*MS-BMGW-KEY-MANAGER-UPDATE*/ BMGW_KEY_MANAGER
+        SET
+            MODIFIER        = #{modifier,jdbcType=VARCHAR}
+            ,PUBLIC_KEY      = #{publicKey,jdbcType=VARCHAR}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,PRIVATE_KEY     = #{privateKey,jdbcType=VARCHAR}
+            ,MODIFIED_TIME   = #{modifiedTime,jdbcType=TIMESTAMP}
+            ,CHANNEL_SYSTEM_ID = #{channelSystemId,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=BIGINT}
+    </update>
+
+    <!--根据主键删除数据:BMGW_KEY_MANAGER-->
+    <delete id="deleteByPrimary" >
+        DELETE /*MS-BMGW-KEY-MANAGER-DELETEBYPRIMARY*/ FROM
+            BMGW_KEY_MANAGER
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+    </delete>
+
+    <!--根据主键获取数据:BMGW_KEY_MANAGER-->
+    <select id="getByPrimary" resultMap="BaseResultMap">
+        SELECT /*MS-BMGW-KEY-MANAGER-GETBYPRIMARY*/  <include refid="Base_Column_List" />
+        FROM BMGW_KEY_MANAGER
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+    </select>
+
+    <select id="keyInfo" resultMap="BaseResultMap">
+        SELECT * from
+        BMGW_KEY_MANAGER
+        WHERE
+        CHANNEL_SYSTEM_ID = #{channelSystemId,jdbcType=VARCHAR}
+    </select>
+</mapper>

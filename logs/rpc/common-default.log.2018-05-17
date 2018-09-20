@@ -1,0 +1,24 @@
+2018-05-17 15:24:21,613 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 15:24:21,616 INFO  main                             - PID:12848 sofa rpc starting!
+2018-05-17 15:24:24,396 INFO  main                             - the run.mode is NORMAL
+2018-05-17 15:28:38,284 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 15:28:38,288 INFO  main                             - PID:8624 sofa rpc starting!
+2018-05-17 15:28:41,094 INFO  main                             - the run.mode is NORMAL
+2018-05-17 15:36:54,576 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 15:36:54,582 INFO  main                             - PID:6484 sofa rpc starting!
+2018-05-17 15:36:57,658 INFO  main                             - the run.mode is NORMAL
+2018-05-17 15:44:57,337 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 15:44:57,340 INFO  main                             - PID:10604 sofa rpc starting!
+2018-05-17 15:45:00,010 INFO  main                             - the run.mode is NORMAL
+2018-05-17 17:20:14,386 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 17:20:14,389 INFO  main                             - PID:13260 sofa rpc starting!
+2018-05-17 17:20:17,072 INFO  main                             - the run.mode is NORMAL
+2018-05-17 17:37:28,193 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 17:37:28,198 INFO  main                             - PID:13024 sofa rpc starting!
+2018-05-17 17:37:31,414 INFO  main                             - the run.mode is NORMAL
+2018-05-17 20:27:36,398 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 20:27:36,404 INFO  main                             - PID:7000 sofa rpc starting!
+2018-05-17 20:27:40,060 INFO  main                             - the run.mode is NORMAL
+2018-05-17 20:29:48,077 INFO  main                             - sofa rpc run.mode = NORMAL
+2018-05-17 20:29:48,081 INFO  main                             - PID:7744 sofa rpc starting!
+2018-05-17 20:29:50,814 INFO  main                             - the run.mode is NORMAL

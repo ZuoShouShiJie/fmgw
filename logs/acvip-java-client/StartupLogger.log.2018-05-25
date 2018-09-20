@@ -1,0 +1,6 @@
+[2018-05-25 17:19:12,477][INFO][worker-1-thread-2][c.a.a.c.l.StartupLogger] - ================== Init started ==================
+[2018-05-25 17:19:34,261][INFO][worker-1-thread-2][c.a.a.c.l.StartupLogger] - Loaded local nameList, size is 0
+[2018-05-25 17:19:55,265][INFO][worker-1-thread-2][c.a.a.c.l.StartupLogger] - Loaded local zoneInfoList([]) from disk, localZone=null
+[2018-05-25 17:19:55,265][INFO][worker-1-thread-2][c.a.a.c.l.StartupLogger] - ExtensionParamsCache inited
+[2018-05-25 17:19:55,280][INFO][worker-1-thread-2][c.a.a.c.l.StartupLogger] - [VipServerHttpSynchronizer] Started.
+[2018-05-25 17:19:55,281][INFO][worker-1-thread-2][c.a.a.c.l.StartupLogger] - ================== Init done (elapsed 42800ms). ==================

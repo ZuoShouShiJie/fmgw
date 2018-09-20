@@ -1,0 +1,54 @@
+2018-05-30 11:29:36.822 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 11:29:36.921 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 11:32:01.686 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 11:32:01.737 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 11:33:14.784 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 11:33:14.842 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 11:35:29.489 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 11:35:29.542 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 11:39:32.928 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 11:39:32.995 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 13:37:43.633 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 13:37:43.738 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 13:38:17.349 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 13:38:17.404 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 13:50:49.304 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 13:50:49.368 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 13:54:48.118 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 13:54:48.239 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 14:10:57.847 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 14:10:57.905 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 14:19:43.416 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 14:19:43.465 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 14:19:58.240 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 14:19:58.287 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 14:22:35.433 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-05-30 14:22:35.482 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-05-30 14:28:25.647 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-05-30 14:28:25.659 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-05-30 14:28:25.661 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-05-30 14:28:25.661 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-05-30 14:28:25.663 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-05-30 14:28:25.672 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-05-30 14:28:25.703 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-05-30 14:28:26.111 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-05-30 14:28:26.214 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-05-30 14:28:26.358 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-05-30 14:28:32.125 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.antcloud.antvip Logback ]
+2018-05-30 14:29:36.199 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.dsr Logback ]
+2018-05-30 14:30:03.055 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-05-30 14:30:03.056 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-05-30 14:30:03.267 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-30 14:30:05.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2018-05-30 14:30:05.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8099]
+2018-05-30 14:30:05.846 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-30 18:32:58.823 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-05-30 18:32:58.841 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-05-30 18:32:58.842 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-05-30 18:32:58.842 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-05-30 18:32:58.842 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-05-30 18:32:58.901 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-05-30 18:32:58.927 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-05-30 18:32:58.972 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-05-30 18:32:59.131 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-05-30 18:32:59.385 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final

@@ -1,0 +1,18 @@
+2018-05-25 17:19:07.892 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-05-25 17:19:07.936 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-05-25 17:19:07.936 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-05-25 17:19:07.937 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-05-25 17:19:07.937 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-05-25 17:19:07.953 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-05-25 17:19:07.959 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-05-25 17:19:08.016 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-05-25 17:19:08.105 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-05-25 17:19:08.350 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-05-25 17:19:12.436 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.antcloud.antvip Logback ]
+2018-05-25 17:20:16.289 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.dsr Logback ]
+2018-05-25 17:20:43.476 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-05-25 17:20:43.477 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-05-25 17:20:43.659 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-25 17:20:46.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2018-05-25 17:20:46.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8099]
+2018-05-25 17:20:46.540 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read

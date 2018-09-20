@@ -1,0 +1,6 @@
+2018-05-21 11:05:02.924,qzgw,c0a82132152687190289710017612,0,com.mike.leex.facade.api.ApiFacadeService:1.0,doInvoke,bolt,,,,,,,,04,0B,0B,25ms,0ms,0ms,25ms,http-nio-8099-exec-1,REGISTRY,,,,,,,,
+2018-05-21 11:10:16.910,qzgw,c0a82132152687221690510027612,0,com.mike.leex.facade.api.ApiFacadeService:1.0,doInvoke,bolt,,,,,,,,04,0B,0B,1ms,0ms,0ms,1ms,http-nio-8099-exec-2,REGISTRY,,,,,,,,
+2018-05-21 11:16:49.641,qzgw,c0a82132152687260963810037612,0,com.mike.leex.facade.api.ApiFacadeService:1.0,doInvoke,bolt,,,,,,,,04,0B,0B,1ms,0ms,0ms,1ms,http-nio-8099-exec-3,REGISTRY,,,,,,,,
+2018-05-21 11:47:57.993,qzgw,c0a821321526874477881100111380,0,com.mike.leex.facade.api.ApiFacadeService:1.0,doInvoke,bolt,,,,,,,,04,0B,0B,104ms,0ms,0ms,104ms,http-nio-8099-exec-1,REGISTRY,,,,,,,,
+2018-05-21 11:52:17.949,qzgw,c0a821321526874737946100211380,0,com.mike.leex.facade.api.ApiFacadeService:1.0,doInvoke,bolt,,,,,,,,04,0B,0B,1ms,0ms,0ms,1ms,http-nio-8099-exec-2,REGISTRY,,,,,,,,
+2018-05-21 13:47:45.436,qzgw,c0a821321526881665325100111256,0,com.mike.leex.facade.api.ApiFacadeService:1.0,doInvoke,bolt,,,,,,,,04,0B,0B,103ms,0ms,0ms,103ms,http-nio-8099-exec-1,REGISTRY,,,,,,,,

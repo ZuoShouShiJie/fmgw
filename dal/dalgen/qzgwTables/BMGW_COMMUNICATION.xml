@@ -1,0 +1,63 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="BMGW_COMMUNICATION" physicalName="BMGW_COMMUNICATION" remark="BMGW_COMMUNICATION">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:BMGW_COMMUNICATION">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO BMGW_COMMUNICATION(
+            ID
+            ,URL
+            ,CREATOR
+            ,MODIFIER
+            ,CREATE_TIME
+            ,HTTP_REQ_TYPE
+            ,MODIFIED_TIME
+            ,EXCHANGE_TYPE_ID
+            ,CHANNEL_SYSTEM_ID
+            ,EXCHANGE_TYPE_NAME
+        )VALUES(
+             #{id,jdbcType=INTEGER}
+            , #{url,jdbcType=VARCHAR}
+            , #{creator,jdbcType=VARCHAR}
+            , #{modifier,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{httpReqType,jdbcType=VARCHAR}
+            , #{modifiedTime,jdbcType=TIMESTAMP}
+            , #{exchangeTypeId,jdbcType=VARCHAR}
+            , #{channelSystemId,jdbcType=VARCHAR}
+            , #{exchangeTypeName,jdbcType=VARCHAR}
+        )
+    </operation>
+
+    <operation name="update" paramtype="object" remark="更新表:BMGW_COMMUNICATION">
+        UPDATE BMGW_COMMUNICATION
+        SET
+            URL             = #{url,jdbcType=VARCHAR}
+            ,MODIFIER        = #{modifier,jdbcType=VARCHAR}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,HTTP_REQ_TYPE   = #{httpReqType,jdbcType=VARCHAR}
+            ,MODIFIED_TIME   = #{modifiedTime,jdbcType=TIMESTAMP}
+            ,EXCHANGE_TYPE_ID = #{exchangeTypeId,jdbcType=VARCHAR}
+            ,CHANNEL_SYSTEM_ID = #{channelSystemId,jdbcType=VARCHAR}
+            ,EXCHANGE_TYPE_NAME = #{exchangeTypeName,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=INTEGER}
+    </operation>
+
+    <operation name="deleteByPrimary" multiplicity="one" remark="根据主键删除数据:BMGW_COMMUNICATION">
+        DELETE FROM
+            BMGW_COMMUNICATION
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:BMGW_COMMUNICATION">
+        SELECT *
+        FROM BMGW_COMMUNICATION
+        WHERE
+            ID = #{id,jdbcType=INTEGER}
+    </operation>
+</table>

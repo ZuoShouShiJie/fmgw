@@ -1,0 +1,40 @@
+2018-05-17 20:27:35.420 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-05-17 20:27:35.428 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-05-17 20:27:35.428 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-05-17 20:27:35.429 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-05-17 20:27:35.429 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-05-17 20:27:35.440 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-05-17 20:27:35.448 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-05-17 20:27:35.539 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-05-17 20:27:35.758 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-05-17 20:27:36.477 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-05-17 20:27:40.756 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.antcloud.antvip Logback ]
+2018-05-17 20:28:41.948 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-05-17 20:28:41.951 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-05-17 20:28:42.113 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-17 20:28:44.532 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.dsr Logback ]
+2018-05-17 20:28:45.537 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2018-05-17 20:28:45.554 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8099]
+2018-05-17 20:28:45.567 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8099"]
+2018-05-17 20:28:45.567 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2018-05-17 20:28:45.620 [main] INFO  org.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-05-17 20:28:45.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8099"]
+2018-05-17 20:28:45.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8099"]
+2018-05-17 20:29:46.922 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-05-17 20:29:46.932 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-05-17 20:29:46.932 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-05-17 20:29:46.933 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-05-17 20:29:46.934 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-05-17 20:29:46.947 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-05-17 20:29:46.963 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-05-17 20:29:47.041 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-05-17 20:29:47.107 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-05-17 20:29:47.646 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-05-17 20:29:51.427 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.antcloud.antvip Logback ]
+2018-05-17 20:30:52.403 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-05-17 20:30:52.405 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-05-17 20:30:52.583 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-05-17 20:30:55.089 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.dsr Logback ]
+2018-05-17 20:30:55.559 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2018-05-17 20:30:55.575 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8099]
+2018-05-17 20:30:55.576 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read

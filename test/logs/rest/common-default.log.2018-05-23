@@ -1,0 +1,4 @@
+2018-05-23 11:07:10.979 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.instanceid = PNTZZG0TNW1R
+2018-05-23 11:07:10.983 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.alipay.env = shared
+2018-05-23 11:07:10.983 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - Existed DSR com.antcloud.antvip.endpoint = 100.100.0.90
+2018-05-23 11:07:10.983 [main] INFO  c.a.b.s.s.i.RestApplicationContextInitializer - sofa rest starting!

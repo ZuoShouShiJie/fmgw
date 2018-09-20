@@ -1,0 +1,24 @@
+2018-08-10 10:01:33.561 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.access in Java -D argument, put value iPEpRiVpTYmcQhPCcv into System
+2018-08-10 10:01:33.598 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.antvip.endpoint in Java -D argument, put value 100.100.0.90 into System
+2018-08-10 10:01:33.599 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.antcloud.mw.secret in Java -D argument, put value 1LXCh6aSuLny9Nj97bHIwyhPzLZnIUOe into System
+2018-08-10 10:01:33.599 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.env in Java -D argument, put value shared into System
+2018-08-10 10:01:33.600 [main] INFO  c.a.boot.sofarpc.configuration.Slite2Configuration - Not find key com.alipay.instanceid in Java -D argument, put value 6X7QISWPLLCZ into System
+2018-08-10 10:01:33.665 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual logging.path is [ ./logs ]
+2018-08-10 10:01:33.673 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rest Logback ]
+2018-08-10 10:01:33.814 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.mq Logback ]
+2018-08-10 10:01:33.979 [main] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.rpc Logback ]
+2018-08-10 10:01:34.194 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2018-08-10 10:01:46.512 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.antcloud.antvip Logback ]
+2018-08-10 10:02:50.637 [worker-1-thread-2] INFO  com.alipay.sofa.common.log - Sofa-Middleware-Log SLF4J : Actual binding is of type [ com.alipay.sofa.dsr Logback ]
+2018-08-10 10:04:18.193 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-08-10 10:04:18.196 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-08-10 10:04:18.473 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-10 10:04:20.133 [main] INFO  c.s.f.c.l.s.SyncListableLocalCacheManagerFactory - 初始化缓存
+2018-08-10 10:04:20.133 [main] INFO  c.s.f.c.l.support.AbstractLocalCacheManagerFactory - 初始化所有缓存管理器
+2018-08-10 10:04:20.133 [main] INFO  c.s.f.c.l.support.AbstractLocalCacheManagerFactory - 本地缓存名称列表
+2018-08-10 10:04:20.133 [main] INFO  c.s.f.c.l.support.AbstractLocalCacheManagerFactory - 缓存名称[qzgw#QzgwServiceInfo],缓存描述[服务信息缓存]
+2018-08-10 10:04:20.134 [main] INFO  c.s.f.c.l.support.AbstractLocalCacheManagerFactory - 缓存名称[qzgw#QzgwServiceOrg],缓存描述[服务机构权限缓存]
+2018-08-10 10:04:20.134 [main] INFO  c.s.f.c.l.support.AbstractLocalCacheManagerFactory - 缓存名称[qzgw#QzgwOrgInfo],缓存描述[机构信息缓存]
+2018-08-10 10:04:20.134 [main] INFO  c.s.f.c.l.support.AbstractLocalCacheManagerFactory - 缓存名称[qzgw#QzgwKey],缓存描述[机构秘钥缓存]
+2018-08-10 10:04:20.134 [main] INFO  c.s.f.c.local.manager.AbstractLocalCacheManager - 初始化缓存 qzgw#QzgwKey
+2018-08-10 10:04:41.480 [main] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat

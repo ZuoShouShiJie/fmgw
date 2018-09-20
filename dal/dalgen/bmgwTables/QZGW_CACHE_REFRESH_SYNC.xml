@@ -1,0 +1,51 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="QZGW_CACHE_REFRESH_SYNC" physicalName="QZGW_CACHE_REFRESH_SYNC" remark="QZGW_CACHE_REFRESH_SYNC">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:QZGW_CACHE_REFRESH_SYNC">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO QZGW_CACHE_REFRESH_SYNC(
+            NAME
+            ,LATEST_NO
+            ,CREATE_TIME
+            ,MODIFY_TIME
+            ,SERVICE_CODE
+        )VALUES(
+             #{name,jdbcType=VARCHAR}
+            , #{latestNo,jdbcType=INTEGER}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{modifyTime,jdbcType=TIMESTAMP}
+            , #{serviceCode,jdbcType=VARCHAR}
+        )
+    </operation>
+
+    <operation name="update" paramtype="object" remark="更新表:QZGW_CACHE_REFRESH_SYNC">
+        UPDATE QZGW_CACHE_REFRESH_SYNC
+        SET
+            LATEST_NO       = #{latestNo,jdbcType=INTEGER}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,MODIFY_TIME     = #{modifyTime,jdbcType=TIMESTAMP}
+        WHERE
+            NAME            = #{name,jdbcType=VARCHAR}
+            AND SERVICE_CODE    = #{serviceCode,jdbcType=VARCHAR}
+    </operation>
+
+    <operation name="deleteByPrimary" multiplicity="one" remark="根据主键删除数据:QZGW_CACHE_REFRESH_SYNC">
+        DELETE FROM
+            QZGW_CACHE_REFRESH_SYNC
+        WHERE
+            NAME = #{name,jdbcType=VARCHAR}
+            AND SERVICE_CODE = #{serviceCode,jdbcType=VARCHAR}
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:QZGW_CACHE_REFRESH_SYNC">
+        SELECT *
+        FROM QZGW_CACHE_REFRESH_SYNC
+        WHERE
+            NAME = #{name,jdbcType=VARCHAR}
+            AND SERVICE_CODE = #{serviceCode,jdbcType=VARCHAR}
+    </operation>
+</table>

@@ -1,0 +1,57 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="BMGW_KEY_MANAGER" physicalName="BMGW_KEY_MANAGER" remark="BMGW_KEY_MANAGER">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:BMGW_KEY_MANAGER">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO BMGW_KEY_MANAGER(
+            ID
+            ,CREATOR
+            ,MODIFIER
+            ,PUBLIC_KEY
+            ,CREATE_TIME
+            ,PRIVATE_KEY
+            ,MODIFIED_TIME
+            ,CHANNEL_SYSTEM_ID
+        )VALUES(
+             #{id,jdbcType=BIGINT}
+            , #{creator,jdbcType=VARCHAR}
+            , #{modifier,jdbcType=VARCHAR}
+            , #{publicKey,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{privateKey,jdbcType=VARCHAR}
+            , #{modifiedTime,jdbcType=TIMESTAMP}
+            , #{channelSystemId,jdbcType=VARCHAR}
+        )
+    </operation>
+
+    <operation name="update" paramtype="object" remark="更新表:BMGW_KEY_MANAGER">
+        UPDATE BMGW_KEY_MANAGER
+        SET
+            MODIFIER        = #{modifier,jdbcType=VARCHAR}
+            ,PUBLIC_KEY      = #{publicKey,jdbcType=VARCHAR}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,PRIVATE_KEY     = #{privateKey,jdbcType=VARCHAR}
+            ,MODIFIED_TIME   = #{modifiedTime,jdbcType=TIMESTAMP}
+            ,CHANNEL_SYSTEM_ID = #{channelSystemId,jdbcType=VARCHAR}
+        WHERE
+            ID              = #{id,jdbcType=BIGINT}
+    </operation>
+
+    <operation name="deleteByPrimary" multiplicity="one" remark="根据主键删除数据:BMGW_KEY_MANAGER">
+        DELETE FROM
+            BMGW_KEY_MANAGER
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:BMGW_KEY_MANAGER">
+        SELECT *
+        FROM BMGW_KEY_MANAGER
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+    </operation>
+</table>

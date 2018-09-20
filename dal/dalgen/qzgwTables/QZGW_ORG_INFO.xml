@@ -1,0 +1,60 @@
+<!DOCTYPE table SYSTEM "../config/table-config-1.0.dtd">
+<table sqlname="QZGW_ORG_INFO" physicalName="QZGW_ORG_INFO" remark="QZGW_ORG_INFO">
+    <!--  特殊字符说明  &lt;&gt;   <> -->
+
+    <operation name="insert" paramtype="object" remark="插入表:QZGW_ORG_INFO">
+        <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        INSERT INTO QZGW_ORG_INFO(
+            ID
+            ,ORG_PWD
+            ,STATUS
+            ,CREATOR
+            ,ORG_CODE
+            ,ORG_USER
+            ,MODIFIER
+            ,CREATE_TIME
+            ,MODIFIED_TIME
+        )VALUES(
+             #{id,jdbcType=BIGINT}
+            , #{orgPwd,jdbcType=VARCHAR}
+            , #{status,jdbcType=VARCHAR}
+            , #{creator,jdbcType=VARCHAR}
+            , #{orgCode,jdbcType=VARCHAR}
+            , #{orgUser,jdbcType=VARCHAR}
+            , #{modifier,jdbcType=VARCHAR}
+            , #{createTime,jdbcType=TIMESTAMP}
+            , #{modifiedTime,jdbcType=TIMESTAMP}
+        )
+    </operation>
+
+    <operation name="update" paramtype="object" remark="更新表:QZGW_ORG_INFO">
+        UPDATE QZGW_ORG_INFO
+        SET
+            ORG_PWD         = #{orgPwd,jdbcType=VARCHAR}
+            ,STATUS          = #{status,jdbcType=VARCHAR}
+            ,ORG_CODE        = #{orgCode,jdbcType=VARCHAR}
+            ,ORG_USER        = #{orgUser,jdbcType=VARCHAR}
+            ,MODIFIER        = #{modifier,jdbcType=VARCHAR}
+            ,CREATE_TIME     = #{createTime,jdbcType=TIMESTAMP}
+            ,MODIFIED_TIME   = #{modifiedTime,jdbcType=TIMESTAMP}
+        WHERE
+            ID              = #{id,jdbcType=BIGINT}
+    </operation>
+
+    <operation name="deleteByPrimary" multiplicity="one" remark="根据主键删除数据:QZGW_ORG_INFO">
+        DELETE FROM
+            QZGW_ORG_INFO
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+    </operation>
+
+    <operation name="getByPrimary" multiplicity="one" remark="根据主键获取数据:QZGW_ORG_INFO">
+        SELECT *
+        FROM QZGW_ORG_INFO
+        WHERE
+            ID = #{id,jdbcType=BIGINT}
+    </operation>
+</table>
